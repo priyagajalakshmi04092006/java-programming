@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner Sc=new Scanner(System.in);
+        int a=Sc.nextInt();
+        int b=Sc.nextInt();
+        int c=Sc.nextInt();
+        int d=Sc.nextInt();
+        int e=Sc.nextInt();
+        int Sum=(a+b+c+d+e);
+        double avg=(Sum/5.0);
+        System.out.println("Sum of the 5 number is : "+Sum);
+        System.out.println("Average of the 5 number is : "+avg);
+        
+        
+    }
+}
